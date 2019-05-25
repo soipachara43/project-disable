@@ -1238,15 +1238,7 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
-    text-align: center;
-    margin-bottom: 50px;
-}
 
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid black;
-}
 
 .team-member h4 {
     margin-top: 20px;
@@ -1255,12 +1247,17 @@ section h3.section-subheading {
 }
 
 .textedit {
+    padding-left: 55px;
     font-family: 'FC Lamoon';
     font-size: 30px;
 }
 
 .team-member p {
     margin-top: 0;
+}
+.design1{
+    display: block;
+    padding-left: 50px;
 }
 
 aside.clients img {
