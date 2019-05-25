@@ -460,10 +460,6 @@ h6 {
     margin: 0 auto;
 }
 
-.bg-light-gray {
-    background-color: #eeeeee;
-}
-
 .bg-darkest-gray {
     background-color: #222222;
 }
@@ -699,7 +695,6 @@ video-background {
 }
 
 header .intro-text {
-    font-style: italic;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -721,13 +716,14 @@ header .intro-text .intro-heading {
     margin-top: 100px;
     margin-bottom: 25px;
     color: white;
-    z-index: 999;
+    z-index: 9999;
     position: relative;
 }
 
 @media (min-width: 768px) {
     header .intro-text {
         padding-top: 200px;
+        padding-bottom: 150px;
     }
 
     header .intro-text .intro-lead-in {
@@ -758,6 +754,12 @@ section h2.section-heading {
     margin-top: -100px;
     margin-bottom: 10px;
 }
+section h2.section-heading-text-center{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
 section h3.section-subheading {
     font-size: 16px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -772,12 +774,6 @@ section h3.section-subheading {
         padding: 150px 0;
     }
 }
-.page1_1{
-    padding:130px 0;
-    padding-bottom:0px;
-    margin-bottom:-110px;
-}
-
 
 .service-heading {
     margin: 30px 0;
@@ -794,6 +790,7 @@ section h3.section-subheading {
     margin-left: 1%;
     width: 20%;
 }
+
 
 .col-md-4-2 {
     float: left;
@@ -859,6 +856,8 @@ section h3.section-subheading {
 /* Sex Graph */
 #portfolio {
     padding-bottom: 3%;
+
+    
 }
 
 .graphpy1 {
@@ -1267,13 +1266,18 @@ aside.clients img {
     margin: 50px auto;
 }
 
-
 section#inct {
     background-color: #222222;
 }
 
 section#contact .section-heading {
     color: #222222;
+}
+section#portfolio.bg-light-gray{
+    background-image:url('../Example2.jpg');
+    min-height:1440px;
+    background-image: no-repeat; 
+
 }
 
 section#contact .form-group {
@@ -1469,6 +1473,10 @@ ul.social-buttons li a:active {
     opacity: 0;
     display: none;
 }
+.portfolio-modal .col-lg-12 {
+    background-image: url("../Body/Example2.jpg");
+    background-image: no-repeat;
+}
 
 ::-moz-selection {
     text-shadow: none;
@@ -1493,22 +1501,14 @@ body {
 
 }
 
-tab {
-    display: inline-block; 
-    margin-left: 60px; 
-}
-
-#body{
-    background: no-repeat;
-    width: 20%;
-}
-
 
 .brain{
-    margin-left:94.5vh;
-    margin-top:-110vh;
+    margin-left:1179px;
+    margin-top:-86px;
 }
-
+.brain_pic{
+     filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0));
+}
 .brain_pic:hover{
     -webkit-filter: drop-shadow(12px 12px 7px rgba(180, 0, 0, 0.85));
 }
@@ -1533,7 +1533,7 @@ tab {
 }
 .brain_outside.-open{
     visibility: visible;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .brain_outside.-open .brain_inner {
     opacity: 2;
@@ -1544,13 +1544,17 @@ tab {
 
 
 .armL{
-    margin-left:83.9vh;
-    margin-top:9.1vh;
+    margin-left:1045px;
+    margin-top:130px;
 }
 
+.armL_pic{
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0));
+}
 .armL_pic:hover{
    -webkit-filter: drop-shadow(12px 12px 7px rgba(180, 0, 0, 0.85));
 }
+
 .armL_outside{
    visibility: hidden;
    position: fixed;
@@ -1571,7 +1575,7 @@ tab {
 }
 .armL_outside.-open{
    visibility: visible;
-   background-color: rgba(0, 0, 0, 0.3);
+   background-color: rgba(0, 0, 0, 0.4);
 }
 .armL_outside.-open .armL_inner {
    opacity: 2;
@@ -1584,47 +1588,9 @@ tab {
 
 
 .armR{
-    margin-left:108.2vh;
-    margin-top:-44.4vh;
+    margin-left:1345px;
+    margin-top:-595px;
 }
-.armR_pic{
-    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0));
-}
-.armR_pic:hover{
-   -webkit-filter: drop-shadow(12px 12px 7px rgba(180, 0, 0, 0.85));
-}
-.armR_outside{
-   visibility: hidden;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   padding: 1.5rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   transition: all 0.3s;
-}
-.armR_inner{
-   opacity: 0;
-   transform: scale(0.8);
-   transition: all 0.3s;
-}
-.armR_outside.-open{
-   visibility: visible;
-   background-color: rgba(0, 0, 0, 0.4);
-}
-.armR_outside.-open .armR_inner {
-   opacity: 2;
-   transform: scale(1);
- }
-
-
-
-
-
-
 
 
 
@@ -1636,4 +1602,14 @@ tab {
 .leg{
     margin-left:1155px;
     margin-top:65px;
+}
+
+
+
+
+
+
+tab {
+    display: inline-block; 
+    margin-left: 60px; 
 }
