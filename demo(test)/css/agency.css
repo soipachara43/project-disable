@@ -1529,6 +1529,7 @@ body {
 .brain{
     margin-left:73.6vh;
     margin-top:-92.8vh;
+    position: relative;
 }
 .brain_pic:hover{
     -webkit-filter: drop-shadow(0px 0px 10px rgba(180, 0, 0, 10));
@@ -1565,6 +1566,7 @@ body {
 .armL{
     margin-left:65vh;
     margin-top:7.9vh;
+    position: relative;
 }
 .armL_pic:hover{
    -webkit-filter: drop-shadow(0px 0px 10px rgba(180, 0, 0, 10));
@@ -1602,6 +1604,7 @@ body {
 .armR{
     margin-left:84vh;
     margin-top:-37.3vh;
+    position: relative;
 }
 .armR_pic:hover{
    -webkit-filter: drop-shadow(0px 0px 10px rgba(180, 0, 0, 10));
@@ -1638,6 +1641,7 @@ body {
 .earL{
     margin-left:74.5vh;
     margin-top:-45vh;
+    position: relative;
 }
 
 .earL_pic:hover{
@@ -1675,6 +1679,7 @@ body {
 .earR{
     margin-left:83.2vh;
     margin-top:-3.9vh;
+    position: relative;
 }
 .earR_pic:hover{
    -webkit-filter: drop-shadow(0px 0px 5px rgba(180, 0, 0, 50));
@@ -1711,6 +1716,7 @@ body {
 .mount{
     margin-left:77.7vh;
     margin-top:0.43vh;
+    position: relative;
 }
  .mount_pic:hover{
     -webkit-filter: drop-shadow(0px 0px 5px rgba(180, 0, 0, 50));
@@ -1748,6 +1754,7 @@ body {
 .eye{
     margin-left:80.5vh;
     margin-top:-5.7vh;
+    position: relative;
 }
  .eye_pic:hover{
     -webkit-filter: drop-shadow(0px 0px 5px rgba(180, 0, 0, 50));
@@ -1785,6 +1792,7 @@ body {
 .leg{
     margin-left:72vh;
     margin-top:45vh;
+    position: relative;
 }
  .leg_pic:hover{
     -webkit-filter: drop-shadow(0px 0px 10px rgba(180, 0, 0, 10));
