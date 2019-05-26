@@ -787,7 +787,6 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section#contact {
-        margin-top: 25px;
         padding: 110px 0;
     }
 }
