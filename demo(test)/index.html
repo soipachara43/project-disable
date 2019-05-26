@@ -138,7 +138,60 @@
     <section id="portfolio">
         <img src="../Frame-pop-up-Map/map.png" height="800px" width="auto" style="margin-left: -100px;margin-top: -80px;">
         <div class="container">
-            <div class="row"></div>
+            <div class="row">
+                    <div class="col-lg-12">
+                        <div class="btn_north">
+                            <img src="../Frame-pop-up-Map/pin.png" data-target="north_1" class="north_pic" style="z-index: 10;">
+                            <div class="north_outside" id="north_1">
+                                <div class="north_inner">
+                                    <img src="../Frame-pop-up-Map/america.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn_eu">
+                            <img src="../Frame-pop-up-Map/pin.png" data-target="eu_1" class="eu_pic">
+                            <div class="eu_outside" id="eu_1">
+                                <div class="eu_inner">
+                                    <img src="../Frame-pop-up-Map/europe.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn_af">
+                                <img src="../Frame-pop-up-Map/pin.png" data-target="af_1" class="af_pic">
+                                <div class="af_outside" id="af_1">
+                                    <div class="af_inner">
+                                        <img src="../Frame-pop-up-Map/africa.png">
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="btn_af2">
+                                <img src="../Frame-pop-up-Map/pin.png" data-target="af2_1" class="af2_pic">
+                                <div class="af2_outside" id="af2_1">
+                                    <div class="af2_inner">
+                                        <img src="../Frame-pop-up-Map/africa.png">
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="btn_aus">
+                                <img src="../Frame-pop-up-Map/pin.png" data-target="aus_1" class="aus_pic">
+                                <div class="aus_outside" id="aus_1">
+                                    <div class="aus_inner">
+                                        <img src="../Frame-pop-up-Map/australia.png">
+                                    </div>
+                                </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+            </div>
         </div>
     </section>
 
@@ -399,6 +452,56 @@
           })
           
           $(".leg_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".north_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".north_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".eu_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".eu_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".af_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".af_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".af2_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".af2_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".aus_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".aus_outside").click(function(e) {
             if (e.target === this) {
               $(this).toggleClass("-open")
             }
