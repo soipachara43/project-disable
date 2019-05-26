@@ -331,6 +331,8 @@
               $(this).toggleClass("-open")
             }
           })
+
+
           $(".armL_pic[data-target]").click(function() {
             $("#" + this.dataset.target).toggleClass("-open")
           })
@@ -340,11 +342,63 @@
               $(this).toggleClass("-open")
             }
           })
+
+
           $(".armR_pic[data-target]").click(function() {
             $("#" + this.dataset.target).toggleClass("-open")
           })
           
           $(".armR_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".earL_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".earL_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".earR_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".earR_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".eye_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".eye_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".mount_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".mount_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".leg_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".leg_outside").click(function(e) {
             if (e.target === this) {
               $(this).toggleClass("-open")
             }
