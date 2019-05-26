@@ -1240,6 +1240,7 @@ section h3.section-subheading {
 
 
 
+
 .team-member h4 {
     margin-top: 20px;
     margin-bottom: 0;
@@ -1249,6 +1250,7 @@ section h3.section-subheading {
 .textedit {
     padding-left: 55px;
     font-family: 'FC Lamoon';
+    text-align: center;
     font-size: 30px;
 }
 
@@ -1488,9 +1490,6 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #4169E1;
 
-}
-
-tab {
-    display: inline-block; 
-    margin-left: 60px; 
+}.text_member{
+    text-align: center;
 }
