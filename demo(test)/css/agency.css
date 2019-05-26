@@ -1525,9 +1525,10 @@ body {
 }
 
 
+
 .brain{
-    margin-left:73.6vh;
-    margin-top:-92.8vh;
+    margin-left:76.6vh;
+    margin-top:-96vh;
     position: relative;
 }
 .brain_pic:hover{
@@ -1563,8 +1564,8 @@ body {
 
 
 .armL{
-    margin-left:65vh;
-    margin-top:7.9vh;
+    margin-left:67.4vh;
+    margin-top:9.3vh;
     position: relative;
 }
 .armL_pic:hover{
@@ -1601,8 +1602,8 @@ body {
 
 
 .armR{
-    margin-left:84vh;
-    margin-top:-37.3vh;
+    margin-left:87vh;
+    margin-top:-37vh;
     position: relative;
 }
 .armR_pic:hover{
@@ -1638,8 +1639,8 @@ body {
  
  
 .earL{
-    margin-left:74.5vh;
-    margin-top:-45vh;
+    margin-left:77vh;
+    margin-top:-46vh;
     position: relative;
 }
 
@@ -1676,8 +1677,8 @@ body {
  
  
 .earR{
-    margin-left:83.2vh;
-    margin-top:-3.9vh;
+    margin-left:85.3vh;
+    margin-top:-3.6vh;
     position: relative;
 }
 .earR_pic:hover{
@@ -1713,8 +1714,8 @@ body {
 
 
 .mount{
-    margin-left:77.7vh;
-    margin-top:0.43vh;
+    margin-left:80.5vh;
+    margin-top:-0.4vh;
     position: relative;
 }
  .mount_pic:hover{
@@ -1751,7 +1752,7 @@ body {
 
 
 .eye{
-    margin-left:80.5vh;
+    margin-left:83vh;
     margin-top:-5.7vh;
     position: relative;
 }
@@ -1789,8 +1790,8 @@ body {
 
 
 .leg{
-    margin-left:72vh;
-    margin-top:45vh;
+    margin-left:74.7vh;
+    margin-top:46.5vh;
     position: relative;
 }
  .leg_pic:hover{
