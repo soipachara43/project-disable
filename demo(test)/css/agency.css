@@ -1829,8 +1829,7 @@ body {
 .btn_north{
     margin-left:3.1vh;
     margin-top:-70vh;
-    position: relative;
-    z-index: 10;
+
 
 }
 
@@ -1849,31 +1848,27 @@ body {
    justify-content: center;
    align-items: center;
    transition: all 0.3s;
-   z-index: 10;
+   z-index: 60;
 }
 .north_inner{
    opacity: 0;
    transform: scale(0.8);
    transition: all 0.3s;
-   z-index: 10;
 }
 .north_outside.-open{
    visibility: visible;
    background-color: rgba(0, 0, 0, 0.4);
-   z-index: 10;
 }
 .north_outside.-open .north_inner {
    opacity: 2;
    transform: scale(1);
-   z-index: 10;
+
 }
 
 
 .btn_eu{
     margin-left:72vh;
     margin-top:-18vh;
-    position: relative;
-    z-index: 10;
 
 }
 
@@ -1892,13 +1887,13 @@ body {
    justify-content: center;
    align-items: center;
    transition: all 0.3s;
-   z-index: 10;
+   z-index: 50;
 }
 .eu_inner{
    opacity: 0;
    transform: scale(0.8);
    transition: all 0.3s;
-   z-index: 10;
+
 }
 .eu_outside.-open{
    visibility: visible;
@@ -1907,15 +1902,13 @@ body {
 .eu_outside.-open .eu_inner {
    opacity: 2;
    transform: scale(1);
-   z-index: 10;
+
 }
 
 
 .btn_af{
     margin-left:102vh;
     margin-top:-11vh;
-    position: relative;
-    z-index: 10;
 
 }
 
@@ -1934,13 +1927,13 @@ body {
    justify-content: center;
    align-items: center;
    transition: all 0.3s;
-   z-index: 10;
+   z-index: 40;
 }
 .af_inner{
    opacity: 0;
    transform: scale(0.8);
    transition: all 0.3s;
-   z-index: 10;
+
 }
 .af_outside.-open{
    visibility: visible;
@@ -1949,15 +1942,13 @@ body {
 .af_outside.-open .af_inner {
    opacity: 2;
    transform: scale(1);
-   z-index: 10;
+
 }
 
 
 .btn_af2{
     margin-left:58vh;
     margin-top:7vh;
-    position: relative;
-    z-index: 10;
 
 }
 
@@ -1976,13 +1967,13 @@ body {
    justify-content: center;
    align-items: center;
    transition: all 0.3s;
-   z-index: 10;
+   z-index: 30;
 }
 .af2_inner{
    opacity: 0;
    transform: scale(0.8);
    transition: all 0.3s;
-   z-index: 10;
+
 }
 .af2_outside.-open{
    visibility: visible;
@@ -1991,15 +1982,13 @@ body {
 .af2_outside.-open .af2_inner {
    opacity: 2;
    transform: scale(1);
-   z-index: 10;
+
 }
 
 
 .btn_aus{
     margin-left:124vh;
     margin-top:10vh;
-    position: relative;
-    z-index: 10;
 
 }
 
@@ -2018,13 +2007,12 @@ body {
    justify-content: center;
    align-items: center;
    transition: all 0.3s;
-   z-index: 10;
+   z-index: 20;
 }
 .aus_inner{
    opacity: 0;
    transform: scale(0.8);
    transition: all 0.3s;
-   z-index: 10;
 }
 .aus_outside.-open{
    visibility: visible;
@@ -2033,5 +2021,4 @@ body {
 .aus_outside.-open .aus_inner {
    opacity: 2;
    transform: scale(1);
-   z-index: 10;
 }
