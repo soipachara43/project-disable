@@ -1,0 +1,514 @@
+<?php /* Template Name: Home */ ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<?php wp_head() ?>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Disabled-right</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- Theme CSS -->
+    <link href="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/custom-css-js/74.css" rel="stylesheet">
+    <link href="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/custom-css-js/68.css" rel="stylesheet">
+    <!-- slide graph -->
+    <script type="text/javascript" src="alcohollisim/start/js/agency.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" class="index" style="width: 100%;">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Disabled</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">intro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">map</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">facts</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Team</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/yYZdzLPt7NE?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=yYZdzLPt7NE" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">
+                    <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/melogo.png" style="width: 40%;margin-top: -175px;" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Services Section -->
+    <section class="page1_1" id="services" style="background-image: url('http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/bgpage3.jpg');background-repeat: no-repeat;width:100%;height:100%;">
+        <div class="container" style="width: 80%;height: 80%;position: relative;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading-text-center" style="margin-top: -70px;"></h2>
+                    <h3 style="text-align: left;padding-top: 70px;">Disable Person Right</h3>
+                    <h4 style="text-align: left;">สิทธิคนพิการ</h4><br>
+                    <span style="display: inline-block;float: left;">
+                        <table style="width: 400px; height: 400px;float: left;" >
+                            <tbody>
+                                <tr>
+                                    <td style="width: 400px; height:35px;"><h5>AIM & GOAL</h5></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 400px;">
+                                        <p style="padding: 35px;padding-top:0px;padding-left:0px;text-align: justify;font-size: 20px;font-family:'FC Lamoon'">เนื่องจากในปัจจุบันมีผู้พิการด้านต่างๆอยู่เป็นจำนวนหนึ่งทั่วโลก โดยแต่ละทวีปภายในโลกนั้นก็ล้วนมีการดำเนินชีวิตที่แตกต่างกันออกไปขึ้นอยู่กับสภาพสังคมของแต่ละบุคคล ส่วนหนึ่งก็สามารถดำรงชีวิตอยู่ได้ปกติดี เนื่องจากมีการเดินทางที่เอื้ออำนวยรวมไปถึงมีสวัสดิการที่เพรียบพร้อม แต่ว่าก็มีอีกส่วนหนึ่งที่ไม่ได้รับสวัสดิการเท่ากับที่ควรจะได้รับ ทำให้ทางคณะผู้จัดทำเล็งเห็นว่าผู้พิการทางด้านต่างๆทั่วโลกนั้นควรที่จะได้รับสิทธิและสวัสดิการที่ดีเทียบเท่ากับบุคคลทั่วไป จึงได้เกิดไอเดียที่ทำเว็บไซต์นี้ขึ้นมาเพื่อเป็น กระบอกเสียงให้คนทั่วโลกได้ตระหนักถึงเกี่ยวกับผู้พิการ โดยให้ความเคารพให้เกียรติซึ่งกันและกัน มีการช่วยเหลือเอื้อเฟื้อเผื่อแผ่และมีการยอมรับผู้พิการมากยิ่งขึ้น</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </span>
+                    <span style="display: inline-block;float: left;">
+                        <table style="width: 500px; height: 200px;margin-left: 90px;float: left; margin-left: 145px">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 700px;height:35px;"><h5>KNOWLEDGE ABOUT</h5></td>
+                                    <td style="width: 200px;height:35px;"><h5>ICON SYMBOL</h5></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 200px;height: 225px;"><p style="padding-left: 0px;padding-right: 70px;text-align: justify;font-size: 20px;font-family:'FC Lamoon'">ประเภทของความพิการจะแบ่งเป็น&nbsp;&nbsp;5<br>ประเภทใหญ่ๆได้แก่<br>
+1. ความพิการทางการพูด<br>
+2.ความพิการทางการเคลื่อนไหว<br>หรือทางร่างกาย<br>
+3. ความพิการทางการได้ยิน<br>
+4. ความพิการทางการมองเห็น<br>
+5. ความพิการทางสมอง<br><br></p></td>
+                                    <td style="width: 80px;padding-top:40px;text-align: left;position: absolute;"><img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/001-disabled.png" style="width:150px;height:150px;"/></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 103.2px;height:35px;"><h5>DATE of DISABLE PERSON</h5></td>
+                                    <td style="width: 200px;height:35px;"><h5>FLOWER SYMBOL</h5></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 103.2px;"><p style="height: 500px;padding-left: 0px;padding-right: 20px;padding-top:0px;text-align: justify;font-size: 20px;font-family:'FC Lamoon'">วันที่ 3 ธันวาคมของทุกปี</p></td>
+                                    <td style="width: 140px;"><p style="height: 500px;width:200px;padding-top:0px;padding-left:0px;text-align: justify;font-size: 20px;font-family:'FC Lamoon'">ดอกแก้วกัลยา คือ ชื่อดอกไม้ชนิดหนึ่งซึ่งสมเด็จพระเจ้าพี่นางเธอ เจ้าฟ้ากัลยาณิวัฒนา กรมหลวงนราธิวาสราชนครินทร์ ทรงพระกรุณาโปรดเกล้าฯพระราชทานนามดอกไม้ประดิษฐ์โดยคนพิการของศูนย์ส่งเสริมอาชีพและพัฒนาคนพิการ ทั้งยังทรงพระราชทานพระอนุญาตให้ใช้ดอกแก้วกัลยาเป็นดอกไม้สัญลักษณ์ ของคนพิการ</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/map.png" height="800px" width="auto" style="margin-left: -100px;margin-top: -80px;">
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-12">
+                        <div class="btn_north">
+                            <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/pin.png" data-target="north_1" class="north_pic" style="z-index: 10;">
+                            <div class="north_outside" id="north_1">
+                                <div class="north_inner">
+                                    <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/america.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn_eu">
+                            <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/pin.png" data-target="eu_1" class="eu_pic">
+                            <div class="eu_outside" id="eu_1">
+                                <div class="eu_inner">
+                                    <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/europe.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn_af">
+                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/pin.png" data-target="af_1" class="af_pic">
+                                <div class="af_outside" id="af_1">
+                                    <div class="af_inner">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/asia.png">
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="btn_af2">
+                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/pin.png" data-target="af2_1" class="af2_pic">
+                                <div class="af2_outside" id="af2_1">
+                                    <div class="af2_inner">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/africa.png">
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="btn_aus">
+                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/pin.png" data-target="aus_1" class="aus_pic">
+                                <div class="aus_outside" id="aus_1">
+                                    <div class="aus_inner">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/australia.png">
+                                    </div>
+                                </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- About Section -->
+    <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="width:10%;">
+                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/Bodybg1.jpg" height="750px" width="auto">
+                                    <div class="brain">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/Brain.png" width="90vh" height="40vh" data-target="brain_1" class="brain_pic"/>
+                                        <div class="brain_outside" id="brain_1">
+                                            <div class="brain_inner">
+                                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/brain-1.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                        
+                        
+                                    <div class="armL">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/armL.png" width="80vh" height="" data-target="arm_1" class="armL_pic"/>
+                                        <div class="armL_outside" id="arm_1">
+                                            <div class="armL_inner">
+                                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/arm-leg.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                        
+                        
+                                    <div class="armR">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/armR.png" width="80vh" height="" data-target="arm_2" class="armR_pic"/>
+                                        <div class="armR_outside" id="arm_2">
+                                            <div class="armR_inner">
+                                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/arm-leg.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                        
+                        
+                        
+                                    <div class="earL">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/earL.png" width="15vh" height="" data-target="earL_1" class="earL_pic"/>
+                                        <div class="earL_outside" id="earL_1">
+                                            <div class="earL_inner">
+                                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/ear-1.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                        
+                        
+                        
+                                    <div class="earR">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/earR.png" width="15vh" height="" data-target="earR_1" class="earR_pic"/>
+                                        <div class="earR_outside" id="earR_1">
+                                            <div class="earR_inner">
+                                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/ear-1.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                        
+                                    <div class="mount">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/mount.png" width="" height="" data-target="mount_1" class="mount_pic"/>
+                                        <div class="mount_outside" id="mount_1">
+                                            <div class="mount_inner">
+                                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/mouth-1.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                        
+                        
+                                <div class="eye">
+                                    <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/eye.png" width="20vh" height="" data-target="eye_1" class="eye_pic"/>
+                                    <div class="eye_outside" id="eye_1">
+                                        <div class="eye_inner">
+                                                <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/eye-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+    
+    
+                                <div class="leg">
+                                        <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/leg.png" width="120vh" height="272vh" data-target="leg_1" class="leg_pic"/>
+                                        <div class="leg_outside" id="leg_1">
+                                            <div class="leg_inner">
+                                                    <img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/arm-leg.png">
+                                            </div>
+                                        </div>
+                                </div>
+    
+    
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ailing -->
+    <!-- Team Section -->
+    <section id="contact" class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"><br>My Team</h2><br>
+                      <center><table style="height: 300px; width: 1000px;">
+<tbody>
+<tr style="height: 200px;">
+<td style="width: 300px; height: 200px;text-align: center;"><a href="https://www.facebook.com/noterot" target="_blank"><img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/note.png" alt=""></a></td>
+<td style="width: 300px; height: 200px;text-align: center;"><a href="https://www.facebook.com/happyBKBee" target="_blank"><img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/bee.png" alt=""></a></td>
+<td style="width: 300px; height: 200px;text-align: center;"><a href="https://www.facebook.com/puinunmekak" target="_blank"><img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/noon.png" alt=""></a></td>
+<td style="width: 300px; height: 200px;text-align: center;"><a href="https://www.facebook.com/Tik1999" target="_blank"><img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/tik.png" alt=""></a></td>
+</tr>
+<tr style="height: 24.8px;">
+<td class="text_member" style="width: 201px; height: 24.8px;">61070156</td>
+<td class="text_member" style="width: 200px; height: 24.8px;">61070037</td>
+<td class="text_member" style="width: 200.6px; height: 24.8px;">61070155</td>
+<td class="text_member" style="width: 116.4px; height: 24.8px;">61070161</td>
+</tr>
+<tr style="height: 19px;">
+<td class="text_member" style="width: 201px; height: 19px;">นายภัทรนันท์ เรืองชนา</td>
+<td class="text_member" style="width: 200px; height: 19px;">นางสาวชญานี คำเจริญ</td>
+<td class="text_member" style="width: 200.6px; height: 19px;">นางสาวภัทรนันท์ จันทร์ชอน</td>
+<td class="text_member" style="width: 116.4px; height: 19px;">นางสาวภาวรีย์ เพชรรัตน์ธนากุล</td>
+</tr>
+<tr style="height: 24px;">
+<td class="text_member" style="width: 201px; height: 24px;">DESIGN</td>
+<td class="text_member" style="width: 200px; height: 24px;">DESIGN</td>
+<td class="text_member" style="width: 200.6px; height: 24px;">CONTENT</td>
+<td class="text_member" style="width: 116.4px; height: 24px;">CONTENT</td>
+</tr>
+</tbody>
+</table></center><br><br>
+<center><table style="height: 300px; width: 750px;">
+<tbody>
+<tr style="height: 200px;">
+<td style="width: 400px; height: 200px;text-align: center;"><a href="https://www.facebook.com/rewikaze" target="_blank"><img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/rew.png" alt=""></a></td>
+<td style="width: 400px; height: 200px;text-align: center;"><a href="https://www.facebook.com/Toeyykung" target="_blank"><img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/toey.png" alt=""></a></td>
+<td style="width: 400px; height: 200px;text-align: center;"><a href="https://www.facebook.com/baitong.43" target="_blank"><img src="http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/2019/05/tong.png" alt=""></a></td>
+</tr>
+<tr style="height: 24.8px;">
+<td class="text_member" style="width: 201px; height: 24.8px;">61070204</td>
+<td class="text_member" style="width: 200px; height: 24.8px;">61070184</td>
+<td class="text_member" style="width: 200.6px; height: 24.8px;">61070235</td>
+</tr>
+<tr style="height: 19px;">
+<td class="text_member" style="width: 201px; height: 19px;">นายวสิษฐ์พล จงมานัสเจริญ</td>
+<td class="text_member" style="width: 200px; height: 19px;">นายรัฐสิทธิ์ สังวาลย์เพ็ชร์</td>
+<td class="text_member" style="width: 200.6px; height: 19px;">นางสาวสร้อยพชร เมฆาลัย</td>
+</tr>
+<tr style="height: 24px;">
+<td class="text_member" style="width: 201px; height: 24px;">WORDPRESS DEV</td>
+<td class="text_member" style="width: 200px; height: 24px;">WEB DEV</td>
+<td class="text_member" style="width: 200.6px; height: 24px;">WEB DEV</td>
+</tr>
+</tbody>
+</table></center>
+                    
+        </div>
+                
+           
+    </section>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Theme JavaScript -->
+    <script src=" http://161.246.38.35/~it61070204/project-disabled/wp-content/uploads/custom-css-js/76.js"></script>
+    <!---Body--->
+    <script>$(".brain_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".brain_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+
+          $(".armL_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".armL_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+
+          $(".armR_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".armR_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".earL_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".earL_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".earR_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".earR_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".eye_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".eye_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".mount_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".mount_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".leg_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".leg_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".north_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".north_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".eu_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".eu_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".af_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".af_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".af2_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".af2_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+
+          $(".aus_pic[data-target]").click(function() {
+            $("#" + this.dataset.target).toggleClass("-open")
+          })
+          
+          $(".aus_outside").click(function(e) {
+            if (e.target === this) {
+              $(this).toggleClass("-open")
+            }
+          })
+          </script>
+          <?php wp_footer() ?>
+</body>
+
+</html>
